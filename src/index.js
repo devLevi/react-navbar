@@ -5,16 +5,16 @@ import './index.css';
 
 const links = [
     {
-        text: 'Courses',
-        href: 'http://www.thinkful.com/courses/'
+        text: 'Discover App',
+        href: 'https://devlevi.github.io/Discover-App/'
     },
     {
-        text: 'Mentorship',
-        href: 'http://www.thinkful.com/mentorship/'
+        text: 'Tripbook',
+        href: 'https://node-tripbook-app.herokuapp.com/'
     }
 ];
 
 ReactDOM.render(
-    <NavigationBar title="Thinkful" links={links} />,
+    <NavigationBar title="Levi's Capstone Projects" links={links} />,
     document.getElementById('root')
 );
